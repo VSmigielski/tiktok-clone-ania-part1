@@ -37,6 +37,7 @@ const Upload = () => {
     .catch((err) => {
       console.error(err)
   })
+
   }
 
   return (
@@ -68,7 +69,7 @@ const Upload = () => {
                 </div>
               </div>
             </div>			
-            <button>Post</button>
+            <button onClick={event =>  window.location.href='/'}>Post</button>
           </form>
         </div>
     </div>
